@@ -4,6 +4,7 @@
 - memory is an array of 4096 bytes
 
 Memory Map:
+```
 +---------------+= 0xFFF (4095) End of Chip-8 RAM
 |               |
 |               |
@@ -26,7 +27,7 @@ Memory Map:
 | Reserved for  |
 |  interpreter  |
 +---------------+= 0x000 (0) Start of Chip-8 RAM
-
+```
 
 ## Registers
 + chip-8 has 16 general 8-bit register, Vx, x ia a hexadeciamal digit.
